@@ -61,10 +61,7 @@
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <!--
-    this is only for android
-    <gap:plugin name="org.apache.cordova.console" />
-    -->
+    <!-- this is only for android: <gap:plugin name="org.apache.cordova.console" /> -->
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
@@ -78,13 +75,15 @@
 
     <!-- Third party plugins -->
     <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
+    <plugin spec="https://github.com/marceldurchholz/cordova-bluebird-api.git" source="git" />
+    <!--
     <plugin spec="https://github.com/marceldurchholz/cordova-plugin-spinnerdialog.git" source="git" />
     <plugin spec="https://github.com/marceldurchholz/Asset2SD.git" source="git" />
-    <plugin spec="https://github.com/marceldurchholz/cordova-bluebird-api.git" source="git" />
     <plugin spec="https://github.com/litehelpers/Cordova-sqlite-storage.git" source="git" />
     <plugin spec="https://github.com/marceldurchholz/cordova-plugin-dbcopy.git" source="git" />
     <plugin spec="https://github.com/marceldurchholz/cordova-sqlite-porter.git" source="git" />
     <plugin spec="https://github.com/marceldurchholz/cordova-plugin-whitelist.git" source="git" />
+    -->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
